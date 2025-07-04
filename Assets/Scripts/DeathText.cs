@@ -17,7 +17,7 @@ public class DeathText : MonoBehaviour
     {
         if (StaticData.valueToKeep == 2)
         {
-            messege = "That helment wont save you from anything the moment you walk out your lungs fill out with water";
+            messege = "That helmet wont save you from anything the moment you walk out your lungs fill out with water";
         }
         if (StaticData.valueToKeep == 3)
         {
@@ -31,16 +31,16 @@ public class DeathText : MonoBehaviour
         }
         if (StaticData.valueToKeep == 5)
         {
-            messege = "Your suit holds your air supply works but with how light you are you cannot walk on the bottom you drift helplesly until your air ends";
+            messege = "Your suit holds your air supply works but with how light you are you cannot walk on the bottom you drift helplessly until your air ends";
             BootsDeathImage.gameObject.SetActive(true);
         }
         if (StaticData.valueToKeep == 0)
         {
-            messege = "Leaving this place without full suit was a stupid idea you die immiediatly";
+            messege = "Leaving this place without full suit was a stupid idea you die immediately";
         }
         if (StaticData.valueToKeep == 6)
         {
-            messege = "You left with oxygen bottles but when they are empty their purpouse is reduced to paperweight, you die quickly";
+            messege = "You left with oxygen bottles but when they are empty their purpose is reduced to paperweight, you die quickly";
             BootsDeathImage.gameObject.SetActive(true);
         }
         if (StaticData.valueToKeep == 7)

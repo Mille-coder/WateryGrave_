@@ -116,7 +116,7 @@ public class Craftingbench : MonoBehaviour, IDropHandler
                 Destroy(dropped);
                 BenchItems[6].gameObject.SetActive(false);
                 BenchItems[1].gameObject.SetActive(true);
-                descriptor.RecivedDescription("You replaced the glass in helmet it fits perfectly");
+                descriptor.RecivedDescription("You replaced the glass in the helmet it fits perfectly");
                 VoicelinesBench.Stop();
                 VoicelinesBench.PlayOneShot(VoicelineHelmetFix);
                 return;
@@ -137,7 +137,7 @@ public class Craftingbench : MonoBehaviour, IDropHandler
                 {
                     Destroy(dropped);
                     cloth1 = true;
-                    descriptor.RecivedDescription("Great! but you will need something more to repair this suit");
+                    descriptor.RecivedDescription("Great! But you will need something more to repair this suit");
                     return;
                 }
             }

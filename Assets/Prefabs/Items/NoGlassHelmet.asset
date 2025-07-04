@@ -16,3 +16,5 @@ MonoBehaviour:
   type: 1
   piece: 4
   state: 0
+  pickupVoicline: {fileID: 8300000, guid: 0c0f8eb3bfa067a468f82e4d4ce57303, type: 3}
+  volume: 1

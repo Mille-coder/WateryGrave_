@@ -7088,8 +7088,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4279966493
+  m_fontColor: {r: 0.11320752, g: 0.10519756, b: 0.10519756, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9134,7 +9134,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: a0b2c6181b37b48449ba6dd0d3826e61, type: 2}
     - target: {fileID: 1211310424752619880, guid: c6d507a8476b24448af544c7f6de76b3, type: 3}
       propertyPath: describe
-      value: You picked up oxygen bottles. Red dot blinks on both of them
+      value: You picked up an oxygen bottle. Red dot blinks on both of them
       objectReference: {fileID: 0}
     - target: {fileID: 1211310424752619880, guid: c6d507a8476b24448af544c7f6de76b3, type: 3}
       propertyPath: descriptor
